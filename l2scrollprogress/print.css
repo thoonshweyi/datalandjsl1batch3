@@ -1,5 +1,6 @@
 body{
     color: blue;
+    /* background-color: red; */
 }
 
 .prrint-btn{
@@ -12,6 +13,14 @@ body{
 
 .header{
     position: static;
+
+    -webkit-print-color-adjust : exact; /*for color*/
+}
+
+.content{
+    -webkit-print-color-adjust : exact;
+    padding: 0 50px;
+    margin: 0 auto;
 }
 
 @page{

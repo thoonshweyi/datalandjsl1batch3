@@ -1,5 +1,6 @@
 body{
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    /* background-color: silver; */
     font-size: 20px;
     line-height: 50px;
 
@@ -9,7 +10,9 @@ body{
 
 .header{
     width: 100%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: skyblue;
+
     text-align: center;
 
     position: fixed;
@@ -28,6 +31,8 @@ body{
 }
 .content{
     width: 80%;
+    /* background-color: lightblue; */
+    /* background: linear-gradient(red,yellow); */
     padding: 50px;
     margin: 100px auto;
 }
